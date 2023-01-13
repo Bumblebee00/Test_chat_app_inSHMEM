@@ -1,0 +1,8 @@
+#ifndef __VERSION_H_DEF__
+#define __VERSION_H_DEF__
+
+#cmakedefine PROJECT_VERSION "@PROJECT_VERSION@"
+#cmakedefine SOURCE_ROOT_PATH "@SOURCE_ROOT_PATH@"
+#cmakedefine PROJECT_UTILS_PATH "@ SOURCE_ROOT_PATH/utils@"
+
+#endif  // __VERSION_H_DEF__

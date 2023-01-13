@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="jetson (4af8e96d-2592-4e43-952e-995f66436a85)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/DIANA-TemplateCPP" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

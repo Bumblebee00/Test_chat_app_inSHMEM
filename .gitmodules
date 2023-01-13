@@ -1,0 +1,6 @@
+[submodule "tests/googletest"]
+	path = tests/googletest
+	url = https://github.com/google/googletest.git
+[submodule "example-library"]
+	path = example-library
+	url = git@github.com:team-diana/DIANA-TemplateCPP-Lib.git

@@ -1,0 +1,16 @@
+[Unit]
+Description=Example Program
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/usr/local/diana/current
+ExecStart=/bin/bash /usr/local/diana/current/template_CPP/services/start.sh
+#ExecStop=/bin/bash /usr/local/diana/current/template_CPP/services/stop.sh
+Restart=on-failure
+# Other Restart options: or always, on-abort, etc
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

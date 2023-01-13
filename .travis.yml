@@ -1,0 +1,11 @@
+language: cpp
+compiler: gcc
+
+os: linux
+dist: bionic
+
+before_script:
+    - utils/configure.sh
+script:
+    - make compile
+    - make test
